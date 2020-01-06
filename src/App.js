@@ -55,8 +55,6 @@ Food.propTypes = {
   rating: PropTypes.number.isRequired
 };
 
-
-
 function App() {
   return (
   <div>
