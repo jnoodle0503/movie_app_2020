@@ -19,7 +19,6 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.add);
     return (
       <div>
         <h1>The number is : {this.state.count}</h1>
@@ -31,20 +30,5 @@ class App extends React.Component {
 }
 
 
-const func = () => ({
-  name : "jeonginsoo",
-  age : 25,
-  gender : "M"
-});
-
-const f = function() {
-  return {
-    name : "jeonginsoo",
-    age : 25,
-    gender : "m"
-  }
-}
-
-console.log(func());
 
 export default App;
